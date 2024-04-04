@@ -18,3 +18,27 @@
     gap: 10px;
     font-size: 1.2rem;
 }
+.featurette img {
+    border-radius: 10%;
+}
+.bsif img {
+    border-radius: 10%;
+}
+
+@media screen and (max-width: 991px) {
+    .mobil {
+      margin: 0 auto;
+      font-family: cursive;
+    }
+    .deletemobile {
+        display: none;
+    }
+   
+  }
+
+  @media screen and (min-width: 992px) {
+    .mobil {
+      display: none;
+    }
+    
+  }
