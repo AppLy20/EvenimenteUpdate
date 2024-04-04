@@ -33,12 +33,24 @@
     .deletemobile {
         display: none;
     }
-   
+   .bsif {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+   }
   }
 
   @media screen and (min-width: 992px) {
     .mobil {
       display: none;
     }
-    
-  }
+    .bsif {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+       }
+      }
+  
